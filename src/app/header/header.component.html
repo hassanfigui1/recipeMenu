@@ -1,17 +1,22 @@
-<nav class="navbar fixed-top mb-5 navbar-expand-lg ">
-  <div class="container-fluid ">
-    <a class="navbar-brand text-white active" aria-current="page" routerLink="">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon" ></span>
-    </button>
-    <div class="collapse  navbar-collapse active " id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link text-white " routerLink="">Home</a>
-        <a class="nav-link text-white" routerLink="add-user">Add User</a>
-      </div>
-      <div class="navbar-nav">
-          <a class="d-flex nav-link " href="#"></a>
-      </div>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a href="" class="navbar-brand">Recipe Book</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="">Recipes</a></li>
+        <li><a href="">Shopping List</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="" class="dropdown-toggle" role="button">Manage<span class="caret"></span> </a>
+          <ul class="dropdown-menu">
+            <li><a href="">Save Data</a></li>
+            <li><a href="">Fetch Data</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>
